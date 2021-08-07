@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "@aurelia-mdc-web/all": "au2",
-    "aurelia": "dev"
+    "aurelia": "^2.0.0-alpha.15"
   },
   "devDependencies": {
-    "@aurelia/testing": "dev",
-    "@aurelia/webpack-loader": "dev",
+    "@aurelia/testing": "^2.0.0-alpha.15",
+    "@aurelia/webpack-loader": "^2.0.0-alpha.15",
     "@types/node": "^15.12.4",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
