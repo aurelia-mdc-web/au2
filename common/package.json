@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@aurelia-mdc-web/all": "^6.2.4-au2",
+    "@aurelia-mdc-web/all": "^7.0.0-au2",
     "aurelia": "dev"
   },
   "devDependencies": {
