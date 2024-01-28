@@ -1,3 +1,6 @@
+import { Dashboard } from './components/dashboard/dashboard';
+
 export class MyApp {
-    routes = [{ title: 'Dashboard', path: 'dashboard' }];
+    static routes = [{ component: Dashboard, title: 'Dashboard', path: 'dashboard' }];
+    routes = MyApp.routes;
 }

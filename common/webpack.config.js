@@ -42,7 +42,7 @@ module.exports = function (env, { analyze }) {
       filename: production ? '[name].[contenthash].bundle.js' : '[name].bundle.js'
     },
     resolve: {
-      extensions: ['.ts', '.js'],
+      extensions: ['.ts', '.js', '.json', '.html'],
       modules: [path.resolve(__dirname, 'src'), 'node_modules']
     },
     devServer: {
@@ -56,6 +56,7 @@ module.exports = function (env, { analyze }) {
         { test: /\.css$/i, use: ['style-loader', cssLoader, postcssLoader] },
         { test: /\.scss$/i, use: ['style-loader', cssLoader, postcssLoader, sassLoader] },
         { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
+        { test: /@aurelia-mdc-web.*\.html$/i, use: '@aurelia/webpack-loader' },
         { test: /[/\\]src[/\\].+\.html$/i, use: '@aurelia/webpack-loader', exclude: /node_modules/ }
       ]
     },
