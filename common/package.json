@@ -1,13 +1,14 @@
 {
   "dependencies": {
     "@aurelia-mdc-web/all": "au2",
-    "aurelia": "^2.0.0-beta.14"
+    "aurelia": "2.0.0-beta.15"
   },
   "devDependencies": {
-    "@aurelia/router": "latest",
+    "@aurelia/router": "2.0.0-beta.15",
     "eslint": "^8.56.0",
-    "@aurelia/testing": "^2.0.0-beta.14",
-    "@aurelia/webpack-loader": "^2.0.0-beta.14",
+    "@aurelia/testing": "2.0.0-beta.15",
+    "@aurelia/webpack-loader": "2.0.0-beta.15",
+    "@aurelia/validation": "2.0.0-beta.15",
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
