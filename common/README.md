@@ -22,12 +22,6 @@ npm run build
 
 ## Utils
 
-### Analyze package sizes
-Generates visualization of package sizes
-```bash
-npm run analyze
-```
-
 ### Update aurelia-mdc
 
 ```shell
